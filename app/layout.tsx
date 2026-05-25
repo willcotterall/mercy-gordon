@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mercy-gordon.vercel.app"),
   title: "Mercy Gordon",
   description: "Worship music from the California Bay Area. Listen on Spotify, Apple Music, and YouTube.",
   openGraph: {
     title: "Mercy Gordon",
     description: "Worship music from the California Bay Area.",
-    images: ["https://i.scdn.co/image/ab6761610000517411582769681c8d47f9758137"]
+    images: ["/cover-beautiful-insanity.jpg"]
   }
 };
 
