@@ -1,19 +1,19 @@
 const SONGS = [
   {
     title: "Beautiful Insanity",
-    year: "2021",
+    year: "May 2021",
     cover: "/cover-beautiful-insanity.jpg",
     href: "https://open.spotify.com/track/5ZY2nMbFBaivR82aVZFCm8"
   },
   {
     title: "Have Mercy On Me",
-    year: "2023",
+    year: "June 2023",
     cover: "/cover-have-mercy-on-me.jpg",
     href: "https://open.spotify.com/artist/5Z5rOvYETVfca2rqXq4aa4"
   },
   {
     title: "Come Yeshua",
-    year: "2023",
+    year: "September 2023",
     feature: "with Joshua Aaron",
     cover: "/cover-come-yeshua.jpg",
     href: "https://open.spotify.com/artist/5Z5rOvYETVfca2rqXq4aa4"
@@ -27,6 +27,10 @@ export default function Page() {
       <section className="hero grain">
         <div className="hero-photo" />
         <div className="hero-vignette" />
+        <figure className="hero-portrait">
+          <img src="/mercy-portrait.jpg" alt="Mercy Gordon" />
+          <figcaption>Mercy · California</figcaption>
+        </figure>
         <div className="hero-content">
           <div className="hero-eyebrow">
             <span className="rule" />
@@ -34,7 +38,7 @@ export default function Page() {
           </div>
           <h1 className="hero-name">
             Mercy<br />
-            <em>Gordon</em>
+            Gordon
           </h1>
           <p className="hero-tagline">
             Songs written quietly, then released for whoever finds them.
@@ -53,7 +57,7 @@ export default function Page() {
           <div className="section-head">
             <div className="mono-eyebrow">The Catalog</div>
             <h2 className="section-title">
-              Three songs.<br />Sung slow.
+              Three songs.
             </h2>
             <p className="section-lede">
               A small body of work written as worship. Each piece kept whatever stillness
@@ -142,7 +146,7 @@ export default function Page() {
                   allowFullScreen
                 />
               </div>
-              <div className="video-caption">2021 · Single</div>
+              <div className="video-caption">Released May 2021</div>
             </div>
           </div>
         </div>
@@ -162,7 +166,7 @@ export default function Page() {
                   allowFullScreen
                 />
               </div>
-              <div className="video-caption">2023 · with Joshua Aaron</div>
+              <div className="video-caption">September 2023 · with Joshua Aaron</div>
             </div>
             <div className="lyric-text">
               <div className="lyric-eyebrow">
