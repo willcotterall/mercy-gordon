@@ -34,12 +34,23 @@ This is the editorial north star. If iterating, lean toward fewer elements not m
 - Italic display tic was deliberately broken in v4 — 3 distinct display treatments. Don't reintroduce uniform italic.
 
 ## Photo assets (all in `/public/`)
-- `mercy-portrait.jpg` — hero inset + About photo
+- `mercy-portrait.jpg` — **hero inset only** (single use; About photo removed 2026-05-27 per Will)
 - `cover-beautiful-insanity.jpg` — hero full-bleed plate
 - `cover-come-yeshua.jpg` — Listen section bg
-- `cover-have-mercy-on-me.jpg` — About + Outro section bg
+- `cover-have-mercy-on-me.jpg` — no longer in use (was About + Outro bg until 2026-05-27)
 - `beautiful-insanity-still.jpg` — Lyric A section bg
 - `come-yeshua-still.jpg` — Lyric B section bg + Songs atmospheric
+
+### Stock plates (`/public/stock/`, added 2026-05-27, all Unsplash)
+- `01-candle-warmth.jpg` — Outro bg (replaces Have Mercy On Me dupe) · Joyce G `photo-1603006905003-be475563bc59`
+- `02-dried-florals.jpg` — About photo (replaces Mercy portrait dupe) · Patrick Langwallner `photo-1570451488142-71d08e1511e3`
+- `03-window-light.jpg` — Interlude tile 1 · Nellie Adamyan `photo-1688732324812-9c67f0a35b4b`
+- `04-golden-field.jpg` — Interlude tile 3 · Ann Savchenko `photo-1531604250646-2f0e818c4f06`
+- `05-soft-hands.jpg` — Interlude tile 2 (center, taller) · Priscilla Du Preez `photo-1581832098627-e668242add62`
+- `06-cathedral-light.jpg` — About bg (replaces Have Mercy On Me dupe) · `photo-1772878393768-f3f487920707`
+
+### Sections (post-2026-05-27)
+Hero → Songs → Lyric A → Lyric B → **Interlude** (new, 3-tile stock plate) → About → Listen → Outro → Footer
 
 To refresh covers: `curl -s "https://itunes.apple.com/lookup?id=<album_id>"` → use `artworkUrl100`, swap `100x100` for `1200x1200bb`.
 

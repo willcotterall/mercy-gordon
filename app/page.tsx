@@ -27,22 +27,11 @@ export default function Page() {
       <section className="hero grain">
         <div className="hero-photo" />
         <div className="hero-vignette" />
-        <figure className="hero-portrait">
-          <img src="/mercy-portrait.jpg" alt="Mercy Gordon" />
-          <figcaption>Mercy · California</figcaption>
-        </figure>
         <div className="hero-content">
-          <div className="hero-eyebrow">
-            <span className="rule" />
-            <span className="mono-eyebrow">Worship · Bay Area</span>
-          </div>
           <h1 className="hero-name">
             Mercy<br />
             Gordon
           </h1>
-          <p className="hero-tagline">
-            Songs written quietly, then released for whoever finds them.
-          </p>
         </div>
         <div className="hero-scroll">
           <span>Listen</span>
@@ -59,10 +48,6 @@ export default function Page() {
             <h2 className="section-title">
               Three songs.
             </h2>
-            <p className="section-lede">
-              A small body of work written as worship. Each piece kept whatever stillness
-              it was made in.
-            </p>
           </div>
           <div className="songs-grid">
             {SONGS.map((s) => (
@@ -211,15 +196,6 @@ export default function Page() {
       {/* ───────── Interlude — wordless visual pause ───────── */}
       <section className="interlude grain">
         <div className="container interlude-inner">
-          <div className="interlude-eyebrow">
-            <span className="rule" />
-            <span>Interlude</span>
-            <span className="rule" />
-          </div>
-          <p className="interlude-line">
-            Sung in rooms with the lights low, the windows open,
-            and nothing to prove.
-          </p>
           <div className="interlude-grid">
             <figure className="interlude-tile">
               <img src="/stock/03-window-light.jpg" alt="" aria-hidden="true" />
@@ -234,28 +210,13 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ───────── About ───────── */}
+      {/* ───────── About — portrait plate ───────── */}
       <section className="about grain">
         <div className="about-bg" aria-hidden />
         <div className="container">
-          <div className="about-layout">
-            <div className="about-text">
-              <div className="mono-eyebrow">A Note</div>
-              <p className="about-quote">
-                Every time I think of who You are and all You&rsquo;ve done,
-                I&rsquo;m captivated by the thought that You desire us.
-              </p>
-              <div className="about-attrib">from Beautiful Insanity</div>
-              <p className="section-lede" style={{ marginTop: 8 }}>
-                She leads worship in the Bay Area and writes most of these songs alone.
-              </p>
-            </div>
+          <div className="about-plate">
             <div className="about-photo">
-              <img
-                src="/stock/02-dried-florals.jpg"
-                alt=""
-                aria-hidden="true"
-              />
+              <img src="/mercy-portrait.jpg" alt="Mercy Gordon" />
             </div>
           </div>
         </div>
@@ -270,9 +231,6 @@ export default function Page() {
             <h2 className="section-title">
               Listen anywhere.
             </h2>
-            <p className="section-lede">
-              The full catalog lives on every major platform. Follow on Spotify to hear what comes next.
-            </p>
           </div>
           <div className="platforms">
             <a

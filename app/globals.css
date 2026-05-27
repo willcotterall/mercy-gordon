@@ -80,10 +80,10 @@ img {
 .hero-photo {
   position: absolute;
   inset: 0;
-  background-image: url("/cover-beautiful-insanity.jpg");
+  background-image: url("/stock/06-cathedral-light.jpg");
   background-size: cover;
   background-position: center 40%;
-  filter: contrast(1.02) saturate(0.75) brightness(0.72);
+  filter: contrast(1.0) saturate(0.85) brightness(0.68);
   transform: scale(1.08);
   z-index: 0;
 }
@@ -733,11 +733,11 @@ section {
   position: absolute;
   inset: 0;
   z-index: 0;
-  background-image: url("/stock/06-cathedral-light.jpg");
+  background-image: url("/stock/02-dried-florals.jpg");
   background-size: cover;
-  background-position: center 35%;
-  filter: blur(48px) saturate(0.6) brightness(0.4);
-  transform: scale(1.18);
+  background-position: center;
+  filter: blur(55px) saturate(0.7) brightness(0.4);
+  transform: scale(1.2);
 }
 
 .about::after {
@@ -748,79 +748,29 @@ section {
   background: linear-gradient(180deg, rgba(14, 10, 8, 0.92) 0%, rgba(14, 10, 8, 0.7) 50%, rgba(14, 10, 8, 0.95) 100%);
 }
 
-.about-layout {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr;
-  gap: 80px;
-  align-items: center;
-}
-
-@media (max-width: 980px) {
-  .about-layout {
-    grid-template-columns: 1fr;
-    gap: 48px;
-  }
-}
-
-.about-text {
+.about-plate {
   display: flex;
-  flex-direction: column;
-  gap: 28px;
-}
-
-.about-quote {
-  font-family: "Fraunces", serif;
-  font-variation-settings: "opsz" 144, "SOFT" 100;
-  font-weight: 280;
-  font-style: italic;
-  font-size: clamp(26px, 3.2vw, 40px);
-  line-height: 1.22;
-  letter-spacing: -0.02em;
-  color: var(--linen);
-}
-
-.about-quote::before {
-  content: "“";
-  font-size: 1.4em;
-  line-height: 0;
-  color: var(--rose);
-  margin-right: 4px;
-  vertical-align: -0.18em;
-}
-
-.about-quote::after {
-  content: "”";
-  font-size: 1.4em;
-  line-height: 0;
-  color: var(--rose);
-  margin-left: 2px;
-  vertical-align: -0.18em;
-}
-
-.about-attrib {
-  font-size: 11px;
-  letter-spacing: 0.4em;
-  text-transform: uppercase;
-  color: rgba(243, 236, 225, 0.5);
+  justify-content: center;
 }
 
 .about-photo {
   position: relative;
   aspect-ratio: 4 / 5;
   width: 100%;
+  max-width: 440px;
   overflow: hidden;
   background: #1c1612;
   box-shadow:
-    0 40px 100px -20px rgba(0, 0, 0, 0.7),
-    0 0 0 1px rgba(243, 236, 225, 0.05);
+    0 50px 120px -25px rgba(0, 0, 0, 0.75),
+    0 0 0 1px rgba(243, 236, 225, 0.06);
 }
 
 .about-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 45%;
-  filter: contrast(1.02) saturate(0.88) brightness(1.0);
+  object-position: center 18%;
+  filter: contrast(0.96) saturate(0.82) brightness(0.94);
 }
 
 .about-photo::after {
