@@ -208,6 +208,32 @@ export default function Page() {
         </div>
       </section>
 
+      {/* ───────── Interlude — wordless visual pause ───────── */}
+      <section className="interlude grain">
+        <div className="container interlude-inner">
+          <div className="interlude-eyebrow">
+            <span className="rule" />
+            <span>Interlude</span>
+            <span className="rule" />
+          </div>
+          <p className="interlude-line">
+            Sung in rooms with the lights low, the windows open,
+            and nothing to prove.
+          </p>
+          <div className="interlude-grid">
+            <figure className="interlude-tile">
+              <img src="/stock/03-window-light.jpg" alt="" aria-hidden="true" />
+            </figure>
+            <figure className="interlude-tile interlude-tile--tall">
+              <img src="/stock/05-soft-hands.jpg" alt="" aria-hidden="true" />
+            </figure>
+            <figure className="interlude-tile">
+              <img src="/stock/04-golden-field.jpg" alt="" aria-hidden="true" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
       {/* ───────── About ───────── */}
       <section className="about grain">
         <div className="about-bg" aria-hidden />
@@ -226,8 +252,9 @@ export default function Page() {
             </div>
             <div className="about-photo">
               <img
-                src="/mercy-portrait.jpg"
-                alt="Mercy Gordon"
+                src="/stock/02-dried-florals.jpg"
+                alt=""
+                aria-hidden="true"
               />
             </div>
           </div>
