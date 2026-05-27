@@ -106,8 +106,8 @@ export default function Page() {
                 <span className="rule" />
                 <span>Official Lyric Video</span>
               </div>
-              <h3 className="lyric-title">
-                Beautiful<br /><em>Insanity</em>
+              <h3 className="lyric-title lyric-title--caps">
+                Beautiful<br /><span className="accent">Insanity</span>
               </h3>
               <p className="lyric-pull">
                 Every time I think of who You are and all You&rsquo;ve done,<br />
@@ -221,8 +221,7 @@ export default function Page() {
               </p>
               <div className="about-attrib">from Beautiful Insanity</div>
               <p className="section-lede" style={{ marginTop: 8 }}>
-                A worship leader in the California Bay Area writing music as a
-                personal spiritual practice.
+                She leads worship in the Bay Area and writes most of these songs alone.
               </p>
             </div>
             <div className="about-photo">
@@ -290,7 +289,7 @@ export default function Page() {
         <div className="outro-inner">
           <div className="outro-eyebrow">For booking &amp; inquiries</div>
           <h2 className="outro-title">
-            Say <em>hello.</em>
+            Say hello<span className="outro-period">.</span>
           </h2>
           <a className="outro-mail" href="mailto:mercy@crazylove.org">
             mercy@crazylove.org

@@ -509,6 +509,30 @@ section {
   color: var(--rose);
 }
 
+.lyric-title--caps {
+  font-family: "Fraunces", serif;
+  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 0;
+  font-weight: 320;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: clamp(34px, 4.6vw, 60px);
+  line-height: 1.0;
+}
+
+.lyric-title--caps .accent {
+  color: var(--rose);
+  font-style: normal;
+}
+
+.outro-title {
+  font-style: normal !important;
+  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 0 !important;
+}
+
+.outro-period {
+  color: var(--rose);
+}
+
 .lyric-pull {
   font-family: "Fraunces", serif;
   font-style: italic;
